@@ -17,18 +17,18 @@ public class TemperatureConverter {
             double convertedTemperature = celsiusToFahrenheit(temperature);
             System.out.println(temperature + " Celsius is equal to " + convertedTemperature + " Fahrenheit.");
        
-}
-/*
-else if (unit == 'F' || unit == 'f') {
+         }
+
+        else if (unit == 'F' || unit == 'f') {
             double convertedTemperature = fahrenheitToCelsius(temperature);
             System.out.println(temperature + " Fahrenheit is equal to " + convertedTemperature + " Celsius.");
-        }*/
-else {
+        }
+        else {
             System.out.println("Invalid temperature unit. Please enter C or F.");
         }
 
         scanner.close();
-    }
+       }
 
     // Method to convert Celsius to Fahrenheit
     private static double celsiusToFahrenheit(double celsius) {
